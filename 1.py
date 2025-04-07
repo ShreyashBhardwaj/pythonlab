@@ -15,12 +15,13 @@ def min_marks():
 def avg_marks():
     return sum(scores)/len(scores)
 
+
+students=[]
+scores=[]
+
 def main():
-    students=[]
-    scores=[]
 
     students_scores()
-
     print(f"Max Marks: {max_marks()}")
     print(f"Min Marks: {min_marks()}")
     x=avg_marks()
