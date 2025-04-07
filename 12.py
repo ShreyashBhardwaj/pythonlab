@@ -16,8 +16,8 @@ plt.grid(axis='y', linestyle="--", alpha=0.7)
 plt.show()
 
 # 2. Line Chart
-x = np.arange(1, 11)
-y = x ** 2  # Quadratic function
+x = ['A', 'B', 'C', 'D']
+y = [20, 34, 30, 35] # Quadratic function
 
 plt.figure(figsize=(6, 4))
 plt.plot(x, y, marker='o', linestyle='-', color='b', label="y = x^2")
