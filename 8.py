@@ -21,11 +21,6 @@ class Cat(Animal):
     def make_sound(self):
         print("Cat says: Meow!")
 
-# Concrete subclass 3
-class Cow(Animal):
-    def make_sound(self):
-        print("Cow says: Moo!")
-
 # Main execution
 if __name__ == "__main__":
     # Creating objects of concrete subclasses and calling methods
@@ -37,6 +32,3 @@ if __name__ == "__main__":
     cat.make_sound()
     cat.sleep()
 
-    cow = Cow()
-    cow.make_sound()
-    cow.sleep()
